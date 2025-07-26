@@ -10,21 +10,79 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center; 
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .header {
+      color: white;
+      font-family: Inter-Bold;
+    
+    }
+    .header2 {
+      color:hsl(75, 94%, 57%);
+      font-family: Inter-SemiBold;
+    }
+
+    body {
+      background-color: hsl(0, 0%, 8%);
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    img {
+      border-radius: 24px;
+    }
+
+    @font-face {
+      font-family: Inter-Bold;
+      src: url(assets/fonts/static/Inter-Bold.ttf);
+    }
+
+    @font-face {
+      font-family: Inter-Regular;
+      src: url(assets/fonts/static/Inter-Regular.ttf);
+    }    
+
+    @font-face {
+      font-family: Inter-SemiBold;
+      src: url(assets/fonts/static/Inter-SemiBold.ttf);
+    }
+
+    @font-face {
+      font-family: Inter-VariableFont_slnt,wght;
+      src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .container {
+      border-radius: 24px;
+      background-color: hsl(0, 0%, 12%);
+    }
+
+    .links {
+      background-color: (0, 0%, 20%);
+      border-radius: 24px;
+    }
   </style>
 </head>
 <body>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
+  <div class="container">
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
